@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -138,6 +139,8 @@ footer {
   list-style-type: none;
   padding: 0;
   margin: 40px 6px 0 0;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
 }
 .main-nav ul {
   display: flex;
@@ -223,8 +226,38 @@ footer {
   letter-spacing: 1.5px;
   text-align: justify;
   font-weight: 500;
-
 }
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  z-index: 1000;
+}
+.loading {
+  border: 4px dashed #f8e913;
+  border-top: 4px solid #3498db;
+  border-right: 4px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg); 
+    }
+  100% { 
+    transform: rotate(360deg); 
+    }
+}
+
 @media only screen and (max-width: 768px) {
   header {
     display: block;
