@@ -213,7 +213,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   flex-flow: column wrap;
-  margin-bottom: 1em;
 }
 .description {
   width: 60%;
