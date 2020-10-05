@@ -210,6 +210,31 @@ footer {
 .info h1 {
   text-align: center;
   text-shadow: -1px 1px 3px #121212;
+  margin-top: 10;
+}
+.info:nth-of-type(2) {
+  background-color: #f1b167;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.info:nth-of-type(3) {
+  background-color: #c4d65d;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.info:nth-of-type(4) {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.info:nth-of-type(5) {
+  background-color: #758d8d;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
 }
 .description {
   width: 70%;
