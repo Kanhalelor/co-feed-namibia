@@ -57,7 +57,7 @@ footer {
 .footer-cont {
     width: 80%;
     margin: 0 auto;
-    background-color: #6ff;
+    border-top: 1px solid  #6ff;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -75,6 +75,9 @@ footer {
 .footer-contact span {
   margin-left: 30px;
 }
+.call, .mailto {
+    margin-left: 1em;
+}
 .footer-contact li {
   display: flex;
   justify-content: space-between;
@@ -82,10 +85,7 @@ footer {
   font-size: 16px;
   margin-top: 1em;
 }
-.phone {
-  color: #116ec0;
-}
-.email {
+.phone, .email {
   color: #116ec0;
 }
 .social {
@@ -125,7 +125,7 @@ footer {
 .h1-contact {
   margin-top: 2rem;
   padding: 2px;
-  border-bottom: .15rem solid #fff;
+  border-bottom: .15rem solid #f8e913;
   text-shadow: -1px 1px 3px #121212;
 }
 .p-contact {
@@ -210,31 +210,6 @@ footer {
 .info h1 {
   text-align: center;
   text-shadow: -1px 1px 3px #121212;
-  margin-top: 10;
-}
-.info:nth-of-type(2) {
-  background-color: #f1b167;
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-}
-.info:nth-of-type(3) {
-  background-color: #c4d65d;
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-}
-.info:nth-of-type(4) {
-  background-color: #e0e0e0;
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-}
-.info:nth-of-type(5) {
-  background-color: #758d8d;
-  display: flex;
-  justify-content: flex-start;
-  flex-flow: column wrap;
 }
 .description {
   width: 70%;
